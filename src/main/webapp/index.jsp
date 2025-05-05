@@ -1,11 +1,15 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!Doctype html>
+<html lang="en">
 <head>
-    <title>Welcome Guys</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <%@include file="components/links.jsp" %>
 </head>
 <body>
-<h1>Welcome to My Web Application 😂</h1>
-<p>This is the home page of your web application.</p>
+<%@include file="components/headers.jsp" %>
+<%@include file="components/form1.jsp"%>
+<%@include file="components/script.jsp" %>
 </body>
 </html>
