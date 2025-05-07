@@ -391,17 +391,6 @@ public class ConfigExampleServlet extends HttpServlet {
 * * *
 # NEW SERVLET things
 
-Great! I’ll prepare a concise, step-by-step markdown (`.md`) note that focuses only on the essential Servlet concepts you need to understand Spring Boot and prepare for interviews. This will include:
-
-* Key servlet fundamentals (Servlet lifecycle, HttpServlet, etc.)
-* Servlet configuration (via web.xml and annotations)
-* Key concepts like request/response objects, filters, listeners
-* Differences between servlet and Spring MVC (only for context)
-* Common interview questions and answers
-
-I’ll keep the focus strictly on what’s relevant for Spring Boot and interviews—nothing extra. I’ll let you know once it’s ready.
-
-
 # What is a Servlet?
 
 A **Servlet** is a Java class that runs in a web server (servlet container) to handle client requests using a request–response model. It extends a server’s capabilities by generating dynamic content (e.g. HTML, JSON) on the server side. Key points:
