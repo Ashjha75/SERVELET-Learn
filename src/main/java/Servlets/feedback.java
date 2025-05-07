@@ -19,7 +19,7 @@ public class feedback extends HttpServlet {
         String mobile = req.getParameter("mobile").trim();
         String feedback = req.getParameter("feedback").trim();
 
-        try (Connection conn = JDBC.DBConnection.getConnection()) {
+        try (Connection conn = JDBC.HikariDBConnection.getConnection()) {
             String sql = "INSERT INTO feedbackForm (email,mobile,feedback) VALUES (?, ?,?)";
             try (PreparedStatement stmt = conn.prepareStatement(sql)) {
                 stmt.setString(1, email);

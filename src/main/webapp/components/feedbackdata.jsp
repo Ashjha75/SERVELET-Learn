@@ -54,7 +54,7 @@
                             <%
                             try {
                                 Connection conn = JDBC.DBConnection.getConnection();
-                                String sql = "SELECT * FROM feedbackForm ORDER BY id DESC";
+                                String sql = "SELECT * FROM feedbackForm ORDER BY id ";
                                 Statement stmt = conn.createStatement();
                                 ResultSet rs = stmt.executeQuery(sql);
 
