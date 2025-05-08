@@ -1,5 +1,47 @@
 # JavaServer Pages (JSP) – Interview Notes
 
+## JSP Architecture
+JavaServer Pages (JSP) is a technology for creating dynamic web content using HTML and Java. JSPs are compiled into servlets by the JSP container, allowing Java code to be embedded in HTML. The architecture consists of:
+* **JSP Page:** The actual JSP file (e.g. `index.jsp`) containing HTML and Java code.
+* **JSP Container:** Part of the web server (like Apache Tomcat) that processes JSP files. It translates JSPs into servlets, compiles them, and manages their lifecycle.
+* **Servlet:** The Java class generated from the JSP. It contains methods to handle requests and responses.
+* **Web Server:** The server (like Tomcat) that hosts the JSP container and serves HTTP requests.
+* **Client:** The web browser or application that sends requests to the server and receives responses.
+* **Request/Response Cycle:** The client
+
+```
++------------+        1. Request JSP Page        +-----------------------------+
+|  Browser   |  ------------------------------>  | Web Server (e.g., Tomcat)   |
+| (Client)   |                                   | with Servlet Container       |
++------------+                                   +-----------------------------+
+                                                        |
+                                                        | 2. If first request or JSP modified,
+                                                        |    container translates JSP to Servlet
+                                                        |    (otherwise uses compiled version)
+                                                        v
+                                                  +-----------------+
+                                                  | Generated JSP   |
+                                                  | Servlet Class   |
+                                                  +-----------------+
+                                                        |
+                                                        | 3. Servlet executes:
+                                                        |    - Processes scriptlets
+                                                        |    - Calls JavaBeans
+                                                        |    - Generates HTML
+                                                        v
+                                                 +---------------------+
+                                                 |  Business Logic     |
+                                                 |  (JavaBeans, EJBs,  |
+                                                 |   other Java code)  |
+                                                 +---------------------+
+                                                        |
+                                                        | 4. HTML response generated
+                                                        v
++------------+        <------------------------------  +-----------------------------+
+|  Browser   |        5. Return final HTML page        | Web Server (Tomcat)         |
++------------+                                        +-----------------------------+
+```
+
 ## JSP Lifecycle
 
 * **Translation & Compilation:** When a JSP is first requested (or modified), the container translates the JSP into a servlet source and compiles it into a `.class`. Static content becomes `out.write()` calls, JSP elements (scriptlets, directives, tag calls, etc.) are converted into Java code.
