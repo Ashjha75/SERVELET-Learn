@@ -26,12 +26,14 @@ public class HibernateFeedback extends HttpServlet {
         String mobile = req.getParameter("mobile").trim();
         String feedback = req.getParameter("feedback").trim();
 
-//        Create a new Feedback entity
+        // Create a new Feedback entity and set its properties
         Feedback feedbackEntity = new Feedback();
+        feedbackEntity.setEmail(email);
+        feedbackEntity.setMobile(mobile);
+        feedbackEntity.setFeedback(feedback);
 
-//        Save using Hibernate
+        // Save using Hibernate
         boolean success = feedbackDAO.saveFeedBack(feedbackEntity);
-
 
         if (success) {
             System.out.println("Feedback saved successfully");
