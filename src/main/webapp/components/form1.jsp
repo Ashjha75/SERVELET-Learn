@@ -6,7 +6,7 @@
                         <h3>Feedback Form</h3>
                     </div>
                     <div class="card-body p-4">
-                        <form action="<%=application.getContextPath()%>/feedback" method="post">
+                        <form action="<%=application.getContextPath()%>/hibernateFeedback" method="post">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                                 <input type="email" name="email" class="form-control bg-dark text-white" id="exampleInputEmail1" aria-describedby="emailHelp">
