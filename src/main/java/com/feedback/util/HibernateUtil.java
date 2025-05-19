@@ -7,9 +7,11 @@ public class HibernateUtil {
 
     private static SessionFactory sessionFactory;
 
-    Static {
+    static {
         try {
-            sessionFactory = new Configuration().configure().buildSessionFactory();
+            sessionFactory = new Configuration()
+                    .configure("hibernate.cfg.xml")
+                    .buildSessionFactory();
         } catch (Exception e) {
             e.printStackTrace();
         }
