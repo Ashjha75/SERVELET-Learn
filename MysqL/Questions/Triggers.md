@@ -86,5 +86,65 @@ END;
 
 ---
 ```sql
+# 🔄 SQL Interview Questions: Triggers
+
+---
+
+## 🔹 Basic Trigger Concepts
+
+1. **What is a trigger in SQL, and how does it differ from a stored procedure?**
+
+2. **Explain the difference between BEFORE and AFTER triggers. Provide examples of scenarios where each would be appropriate.**
+
+3. **Describe the types of events that can activate a trigger in SQL.**
+
+4. **What are the special tables `INSERTED` and `DELETED` in SQL Server triggers, and how are they used?**
+
+5. **Can a trigger call another trigger? If so, what is a nested trigger, and what are the implications of using them?**
+
+---
+
+## 🔹 Triggers in Your Database Schema
+
+6. **Design a trigger on the `Users` table that automatically sets the `created_at` field to the current timestamp upon insertion.**
+
+7. **Create a trigger on the `Posts` table to prevent insertion if the associated `user_id` does not exist in the `Users` table.**
+
+8. **Implement a trigger that logs deletions from the `Comments` table into an `Audit_Comments` table, capturing the comment's content and deletion time.**
+
+9. **Develop a trigger on the `Orders` table that calculates and updates the total order amount after an `Order_Items` entry is inserted.**
+
+10. **Construct a trigger to automatically update the `updated_at` field in the `Products` table whenever a product's price is modified.**
+
+---
+
+## 🔹 Advanced Trigger Scenarios
+
+11. **How would you create a trigger that prevents a user from placing more than five orders in a single day?**
+
+12. **Design a trigger that enforces a rule where a post cannot be deleted if it has more than ten comments.**
+
+13. **Implement a trigger that updates a `User_Statistics` table to reflect the total number of posts and comments made by a user whenever a new post or comment is added.**
+
+14. **Create a trigger that ensures the `stock_quantity` in the `Products` table is not reduced below zero when an order is placed.**
+
+15. **Develop a trigger that automatically archives orders older than one year into an `Archived_Orders` table upon deletion.**
+
+---
+
+## 🔹 Trigger Management and Best Practices
+
+16. **How can you enable or disable a trigger in SQL Server? Provide the syntax.**
+
+17. **What are the potential performance implications of using triggers extensively in a database?**
+
+18. **Discuss how to handle errors within a trigger to prevent unintended data modifications.**
+
+19. **Explain the concept of recursive triggers and how to prevent infinite recursion.**
+
+20. **What are the considerations for using triggers versus application-level logic for enforcing business rules?**
+
+---
+
 
 ```
