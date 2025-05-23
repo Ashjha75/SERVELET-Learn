@@ -1,12 +1,12 @@
 package JDBC;
 
-    import com.zaxxer.hikari.HikariConfig;
-    import com.zaxxer.hikari.HikariDataSource;
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
 
-    import java.sql.Connection;
-    import java.sql.SQLException;
-    import java.util.Properties;
-    import java.io.InputStream;
+import java.io.InputStream;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.Properties;
 
     public class HikariDBConnection {
         private static HikariDataSource dataSource;
