@@ -76,3 +76,67 @@ Isolation levels determine how transaction integrity is visible to other users a
 * **Inventory Management**: Maintaining accurate stock levels during concurrent transactions.
 
 ---
+```sql
+
+# 🔄 SQL Interview Questions: Transactions
+
+---
+
+## 🔹 Basic Transaction Concepts
+
+1. **What is a transaction in SQL, and why is it important?**
+
+2. **Explain the ACID properties of a transaction.**
+
+3. **What are the differences between COMMIT and ROLLBACK commands?**
+
+4. **Describe the purpose of the SAVEPOINT command in transaction management.**
+
+5. **How do you start and end a transaction in SQL? Provide syntax examples.**
+
+---
+
+## 🔹 Transactions in Your Database Schema
+
+6. **Design a transaction that inserts a new user into the `Users` table and simultaneously creates an initial order in the `Orders` table. Ensure that both operations succeed or fail together.**
+
+7. **Implement a transaction that updates the stock quantity in the `Products` table when a new order is placed in the `Orders` table. Roll back the transaction if the stock is insufficient.**
+
+8. **Create a transaction that deletes a user from the `Users` table and all their associated posts from the `Posts` table. Ensure data integrity is maintained.**
+
+9. **Develop a transaction that transfers funds between two users in the `Users` table. Ensure that the total balance remains consistent after the transaction.**
+
+10. **Construct a transaction that archives orders older than one year by moving them from the `Orders` table to an `Archived_Orders` table.**
+
+---
+
+## 🔹 Advanced Transaction Scenarios
+
+11. **How would you handle a situation where a transaction is partially completed due to a system failure?**
+
+12. **Discuss the implications of using nested transactions in SQL. Provide an example scenario.**
+
+13. **Explain how to manage concurrent transactions to prevent data anomalies such as dirty reads, non-repeatable reads, and phantom reads.**
+
+14. **What strategies can be employed to handle long-running transactions that may lock resources for extended periods?**
+
+15. **Describe how to implement error handling within a transaction to ensure that any exceptions lead to a rollback.**
+
+---
+
+## 🔹 Isolation Levels and Concurrency Control
+
+16. **What are the different isolation levels in SQL, and how do they affect transaction behavior?**
+
+17. **In your schema, how would setting the isolation level to SERIALIZABLE impact concurrent order placements in the `Orders` table?**
+
+18. **Provide an example of a situation in your database where a lower isolation level might lead to a concurrency issue.**
+
+19. **How can optimistic and pessimistic concurrency control mechanisms be applied in your database context?**
+
+20. **Discuss the trade-offs between performance and data integrity when choosing an isolation level for transactions.**
+
+---
+
+
+```
