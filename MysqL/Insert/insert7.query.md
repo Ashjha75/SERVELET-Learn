@@ -1,0 +1,35 @@
+```sql
+-- 30 sample INSERTs for the `tags` table
+INSERT INTO tags (name) VALUES
+('travel'),
+('recipe'),
+('tech'),
+('health'),
+('photography'),
+('music'),
+('lifestyle'),
+('business'),
+('design'),
+('education'),
+('science'),
+('culture'),
+('gaming'),
+('sports'),
+('fashion'),
+('finance'),
+('home'),
+('parenting'),
+('automotive'),
+('diy'),
+('movies'),
+('books'),
+('environment'),
+('politics'),
+('marketing'),
+('healthtech'),
+('programming'),
+('wellness'),
+('startup'),
+('architecture');
+
+```
