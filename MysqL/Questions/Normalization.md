@@ -102,5 +102,57 @@ Here's how normalization and foreign keys apply to your schema:
 ---
 
 ```sql
+# 🧩 SQL Interview Questions: Normalization & Foreign Keys
+
+---
+
+## 🔹 Normalization
+
+1. **Identify any violations of the First Normal Form (1NF) in the `Users` table. Suggest modifications to achieve 1NF compliance.**
+
+2. **Examine the `Posts` table for partial dependencies that violate the Second Normal Form (2NF). Propose a normalized structure.**
+
+3. **Determine if the `Profiles` table has any transitive dependencies violating the Third Normal Form (3NF). How would you restructure the table?**
+
+4. **Assess whether the `Order_Items` table satisfies the Boyce-Codd Normal Form (BCNF). Justify your answer.**
+
+5. **In the `Posts` table, if `category_name` is stored alongside `category_id`, does this violate normalization principles? Explain and suggest a solution.**
+
+6. **Evaluate the `Post_Tags` junction table for redundancy. How does its design support normalization?**
+
+7. **If the `Audit_Logs` table stores both `user_name` and `user_id`, discuss the normalization implications and recommend changes.**
+
+8. **Consider a scenario where the `Comments` table includes both `post_title` and `post_id`. Analyze the normalization concerns and propose a remedy.**
+
+---
+
+## 🔹 Foreign Keys
+
+9. **List all foreign key constraints present in the `Orders` table. Describe the relationships they enforce.**
+
+10. **Explain how the foreign key in the `Comments` table ensures referential integrity with the `Posts` table.**
+
+11. **Discuss the implications of deleting a user from the `Users` table on the `Posts` and `Comments` tables. How can ON DELETE actions be utilized to maintain data integrity?**
+
+12. **Describe how a foreign key in the `Payments` table links to the `Orders` table. What are the benefits of this relationship?**
+
+13. **In the `Order_Items` table, how do foreign keys to both `Orders` and `Products` tables facilitate data consistency?**
+
+14. **What would be the consequences of removing the foreign key constraint between `Posts` and `Users`? How would this affect data integrity?**
+
+15. **Propose a method to enforce a self-referential foreign key in the `Users` table to represent a referral system.**
+
+16. **How can cascading updates be implemented between the `Categories` and `Posts` tables to reflect category name changes?**
+
+17. **If a `Product` is deleted, how can ON DELETE SET NULL be used in the `Order_Items` table to handle the orphaned records?**
+
+18. **Design a foreign key constraint for the `Sessions` table to link each session to a valid user in the `Users` table.**
+
+19. **Explain the role of foreign keys in the `Post_Tags` table in establishing many-to-many relationships.**
+
+20. **How can foreign key constraints be used to prevent insertion of a `Comment` for a non-existent `Post`?**
+
+---
+
 
 ```
