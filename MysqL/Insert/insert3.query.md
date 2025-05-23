@@ -1,0 +1,35 @@
+```sql
+-- 30 sample INSERTs for the `posts` table
+INSERT INTO posts (user_id, title, content, metadata_json, created_at, updated_at) VALUES
+(1,  'Hiking the Alps',              'An amazing trip through the Alps...',       '{"views": 120, "likes": 15}', '2025-05-01 10:00:00', '2025-05-01 10:00:00'),
+(2,  'Top 10 Coffee Shops',          'Here are my favorite local coffee spots...', '{"views": 200, "likes": 30}', '2025-05-02 11:15:00', '2025-05-02 11:15:00'),
+(3,  'Tech Trends 2025',             'What to watch in tech this year...',         '{"views": 340, "likes": 50}', '2025-05-03 09:30:00', '2025-05-03 09:30:00'),
+(4,  'Yoga for Beginners',           'A step-by-step guide to yoga basics...',     '{"views": 180, "likes": 25}', '2025-05-04 14:45:00', '2025-05-04 14:45:00'),
+(5,  'Creating Electronic Music',    'How to start producing tracks...',           '{"views": 250, "likes": 35}', '2025-05-05 16:00:00', '2025-05-05 16:00:00'),
+(6,  '5 Gourmet Recipes',            'Delicious recipes for home cooks...',        '{"views": 220, "likes": 28}', '2025-05-06 12:20:00', '2025-05-06 12:20:00'),
+(7,  'Stargazing Essentials',        'Tools you need to observe the night sky...', '{"views": 150, "likes": 20}', '2025-05-07 20:10:00', '2025-05-07 20:10:00'),
+(8,  'Digital Art Techniques',       'Master these drawing methods...',            '{"views": 300, "likes": 45}', '2025-05-08 13:05:00', '2025-05-08 13:05:00'),
+(9,  'Marathon Training Plan',       'A 12-week plan for first-time runners...',   '{"views": 275, "likes": 40}', '2025-05-09 07:50:00', '2025-05-09 07:50:00'),
+(10, 'Landscape Photography Tips',   'Capture stunning landscapes...',             '{"views": 190, "likes": 22}', '2025-05-10 18:30:00', '2025-05-10 18:30:00'),
+(11, 'Launching a Startup',         'Key steps to get your startup off the ground','{"views": 360, "likes": 55}', '2025-05-11 09:25:00', '2025-05-11 09:25:00'),
+(12, 'Designing Public Spaces',     'Principles of landscape architecture...',     '{"views": 210, "likes": 27}', '2025-05-12 15:40:00', '2025-05-12 15:40:00'),
+(13, 'Advanced SQL Queries',        'Deep dive into complex joins...',             '{"views": 420, "likes": 65}', '2025-05-13 10:10:00', '2025-05-13 10:10:00'),
+(14, 'UI/UX Best Practices',        'Improving user interfaces...',                '{"views": 330, "likes": 48}', '2025-05-14 11:55:00', '2025-05-14 11:55:00'),
+(15, 'Songwriting 101',             'Structuring your first song...',              '{"views": 140, "likes": 18}', '2025-05-15 17:20:00', '2025-05-15 17:20:00'),
+(16, 'Ultimate Event Checklist',    'Everything you need for a flawless event...', '{"views": 260, "likes": 32}', '2025-05-16 14:00:00', '2025-05-16 14:00:00'),
+(17, 'Documentary Gear Guide',      'Choosing the right camera and mic...',         '{"views": 230, "likes": 29}', '2025-05-17 19:15:00', '2025-05-17 19:15:00'),
+(18, 'Community Outreach Tips',     'Building strong social programs...',           '{"views": 175, "likes": 24}', '2025-05-18 08:45:00', '2025-05-18 08:45:00'),
+(19, 'Podcasting Equipment',        'Mic, mixer, and hosting services...',          '{"views": 285, "likes": 38}', '2025-05-19 13:35:00', '2025-05-19 13:35:00'),
+(20, 'Home Workout Routines',       'No-equipment exercises for busy schedules...', '{"views": 245, "likes": 31}', '2025-05-20 07:10:00', '2025-05-20 07:10:00'),
+(21, 'Investigative Reporting',    'Steps to digging deeper stories...',           '{"views": 310, "likes": 42}', '2025-05-21 12:50:00', '2025-05-21 12:50:00'),
+(22, 'Sustainable Fashion Hacks',   'Eco-friendly wardrobe tips...',                '{"views": 200, "likes": 26}', '2025-05-22 16:25:00', '2025-05-22 16:25:00'),
+(23, 'Smart Home Design',           'Integrating tech into your home...',           '{"views": 270, "likes": 34}', '2025-05-23 09:00:00', '2025-05-23 09:00:00'),
+(24, 'Art of Storyboarding',        'Visualizing your film before shooting...',     '{"views": 185, "likes": 21}', '2025-05-24 14:35:00', '2025-05-24 14:35:00'),
+(25, 'Volunteer Management',        'Coordinating large teams...',                  '{"views": 220, "likes": 28}', '2025-05-25 11:20:00', '2025-05-25 11:20:00'),
+(26, 'Building Your Brand',         'Personal branding strategies...',              '{"views": 300, "likes": 46}', '2025-05-26 10:15:00', '2025-05-26 10:15:00'),
+(27, 'Urban Architecture Trends',   'Modern city designs...',                       '{"views": 255, "likes": 33}', '2025-05-27 18:05:00', '2025-05-27 18:05:00'),
+(28, 'Interactive Web Design',      'Creating engaging UIs...',                     '{"views": 290, "likes": 41}', '2025-05-28 13:55:00', '2025-05-28 13:55:00'),
+(29, 'Engineering Ethics',          'Case studies and guidelines...',               '{"views": 210, "likes": 27}', '2025-05-29 08:40:00', '2025-05-29 08:40:00'),
+(30, 'Digital Marketing 101',       'Fundamentals of SEO and ads...',               '{"views": 375, "likes": 60}', '2025-05-30 15:30:00', '2025-05-30 15:30:00');
+
+```

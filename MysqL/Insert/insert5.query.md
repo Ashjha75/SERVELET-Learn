@@ -1,0 +1,35 @@
+```sql
+-- 30 sample INSERTs for the `categories` table
+INSERT INTO categories (name, description) VALUES
+('Travel',                 'Articles about travel destinations and tips.'),
+('Food & Drink',           'Recipes, reviews, and culinary guides.'),
+('Technology',             'Latest in tech, gadgets, and software.'),
+('Health & Fitness',       'Wellness, workouts, and healthy living.'),
+('Photography',            'Tips and tutorials for photographers.'),
+('Music',                  'News and guides for musicians and fans.'),
+('Lifestyle',              'General lifestyle content and advice.'),
+('Business',               'Entrepreneurship and business strategies.'),
+('Design',                 'Graphic, web, and product design topics.'),
+('Education',              'Learning resources and educational tips.'),
+('Science',                'Articles on science and discoveries.'),
+('Art & Culture',          'Art, literature, and cultural insights.'),
+('Gaming',                 'Video game reviews and gaming culture.'),
+('Sports',                 'Sports news, tips, and analyses.'),
+('Fashion',                'Style guides and fashion trends.'),
+('Personal Finance',       'Money management and investing tips.'),
+('Home & Garden',          'Home improvement and gardening advice.'),
+('Parenting',              'Tips and stories for parents.'),
+('Automotive',             'Car reviews and automotive news.'),
+('DIY & Crafts',           'Do-it-yourself project guides.'),
+('Movies & TV',            'Reviews and news about films and shows.'),
+('Books & Literature',     'Book reviews and literary discussions.'),
+('Environment',            'Sustainability and environmental issues.'),
+('Politics',               'Political news and commentary.'),
+('Marketing',              'Marketing strategies and case studies.'),
+('Health Tech',            'Intersection of healthcare and technology.'),
+('Programming',            'Coding tutorials and programming news.'),
+('Travel Photography',     'Combining travel and photography tips.'),
+('Food Photography',       'Capturing culinary creations on camera.'),
+('Wellness Coaching',      'Guidance on mental and physical wellness.');
+
+```
