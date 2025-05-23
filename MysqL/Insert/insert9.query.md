@@ -1,0 +1,35 @@
+```sql
+-- 30 sample INSERTs for the `products` table
+INSERT INTO products (name, price, stock, attributes_json, created_at) VALUES
+('Alpine Hiking Boots',        129.99,  50, '{"size":["8","9","10"],"color":"black"}',    '2025-01-10 09:00:00'),
+('Espresso Machine',           249.50,  30, '{"power":"1500W","color":"red"}',           '2025-01-15 11:20:00'),
+('Wireless Headphones',        89.99,   100,'{"battery_life":"20h","color":"white"}',     '2025-01-20 14:45:00'),
+('Yoga Mat Pro',               45.00,   75, '{"thickness":"6mm","color":"purple"}',        '2025-01-25 08:30:00'),
+('MIDI Keyboard 61-Key',       159.99,  40, '{"keys":61,"connectivity":["USB","MIDI"]}',   '2025-01-30 16:10:00'),
+('Chef Knife Set (5 pcs)',     99.95,   60, '{"blade_material":"stainless steel"}',         '2025-02-05 10:50:00'),
+('Beginner Telescope',         120.00,  25, '{"aperture":"70mm","type":"refractor"}',      '2025-02-10 13:25:00'),
+('Graphics Tablet',            79.99,   80, '{"active_area":"8x5 inches"}',                  '2025-02-15 09:15:00'),
+('Running Shoes',              75.00,   120,'{"size":["7","8","9"],"color":"blue"}',      '2025-02-20 17:05:00'),
+('DSLR Camera Kit',            549.00,  20, '{"lens":"18-55mm","resolution":"24MP"}',      '2025-02-25 12:40:00'),
+('Startup Guide eBook',         15.99,  200,'{"pages":150,"format":"PDF"}',               '2025-03-01 14:00:00'),
+('Garden Tool Set',            39.50,   90, '{"pieces":7,"material":"steel"}',             '2025-03-05 11:30:00'),
+('UX/UI Design Handbook',       29.99,  150,'{"pages":220,"format":"Print"}',             '2025-03-10 09:55:00'),
+('Wireless Microphone',        65.00,   45, '{"range":"50m","battery":"AA"}',               '2025-03-15 16:20:00'),
+('Yoga Block Set (2 pcs)',     20.00,   100,'{"material":"foam","color":"green"}',         '2025-03-20 10:10:00'),
+('Event Planner Toolkit',      49.99,   80, '{"format":"digital","templates":12}',          '2025-03-25 13:45:00'),
+('Documentary Lighting Kit',   199.99,  15, '{"lights":2,"power":"50W"}',                  '2025-03-30 15:55:00'),
+('Social Media Scheduler App',   9.99,  300,'{"platforms":["FB","IG","TW"]}',               '2025-04-04 08:15:00'),
+('Podcasting Starter Pack',    129.00,  25, '{"mic":"USB","stand":"desk"}',                 '2025-04-09 17:30:00'),
+('Home Workout Mat',           25.00,   110,'{"thickness":"8mm","color":"red"}',           '2025-04-14 11:05:00'),
+('Investigative Journalism Kit',49.99,  60, '{"includes":"camera, recorder"}',             '2025-04-19 14:50:00'),
+('Eco-Friendly Tote Bag',      19.99,   200,'{"material":"cotton","color":"natural"}',      '2025-04-24 09:25:00'),
+('Smart Light Bulb',           29.50,   150,'{"watt":"9W","color_temp":"2700-6500K"}',      '2025-04-29 12:15:00'),
+('Storyboard Template Pack',   12.99,   250,'{"slides":30,"format":"PPTX"}',               '2025-05-04 15:40:00'),
+('Volunteer Management CRM',    99.00,  50, '{"users":1000,"cloud":"yes"}',               '2025-05-09 10:30:00'),
+('Personal Branding Course',    79.99,  70, '{"duration":"4 weeks","videos":20}',          '2025-05-14 16:55:00'),
+('Urban Design Workshop',       149.00, 30, '{"days":3,"hours":8}',                        '2025-05-19 13:05:00'),
+('Interactive Web Template',    39.99,  120,'{"pages":5,"responsive":"yes"}',             '2025-05-22 09:45:00'),
+('Ethics in Engineering Guide', 25.00,   80, '{"pages":100,"format":"ebook"}',              '2025-05-24 14:20:00'),
+('Digital Marketing Toolkit',   59.99,  100,'{"tools":["SEO","Analytics"]}',             '2025-05-27 11:15:00');
+
+```
