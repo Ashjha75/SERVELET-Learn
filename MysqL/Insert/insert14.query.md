@@ -1,0 +1,35 @@
+```sql
+-- 30 sample INSERTs for the `logs` table
+INSERT INTO logs (user_id, action, log_time) VALUES
+(1,  'User logged in',                '2025-05-01 08:00:00'),
+(2,  'Password changed',              '2025-05-01 09:15:00'),
+(3,  'Profile updated',               '2025-05-01 10:30:00'),
+(4,  'Created a new post',            '2025-05-01 11:45:00'),
+(5,  'Comment added',                 '2025-05-01 12:50:00'),
+(6,  'Logged out',                    '2025-05-01 13:00:00'),
+(7,  'Placed an order',               '2025-05-01 14:10:00'),
+(8,  'Uploaded avatar',               '2025-05-01 15:20:00'),
+(9,  'Reset password requested',      '2025-05-01 16:30:00'),
+(10, 'Email verified',                '2025-05-01 17:40:00'),
+(11, 'User logged in',                '2025-05-02 08:05:00'),
+(12, 'Deleted a comment',             '2025-05-02 09:20:00'),
+(13, 'Updated post metadata',         '2025-05-02 10:35:00'),
+(14, 'Added a new category',          '2025-05-02 11:50:00'),
+(15, 'Removed a tag',                 '2025-05-02 13:05:00'),
+(16, 'Order status changed',          '2025-05-02 14:20:00'),
+(17, 'Payment processed',             '2025-05-02 15:35:00'),
+(18, 'Sales data exported',           '2025-05-02 16:50:00'),
+(19, 'User logged out',               '2025-05-02 17:55:00'),
+(20, 'Session expired',               '2025-05-03 08:10:00'),
+(21, 'Profile picture updated',       '2025-05-03 09:25:00'),
+(22, 'Comment edited',                '2025-05-03 10:40:00'),
+(23, 'Category description edited',   '2025-05-03 11:55:00'),
+(24, 'Tag name changed',              '2025-05-03 13:10:00'),
+(25, 'New product added',             '2025-05-03 14:25:00'),
+(26, 'Order item quantity updated',   '2025-05-03 15:40:00'),
+(27, 'Payment method updated',        '2025-05-03 16:55:00'),
+(28, 'Sales record corrected',        '2025-05-03 18:10:00'),
+(29, 'Log cleared',                   '2025-05-03 19:25:00'),
+(30, 'User deleted',                  '2025-05-03 20:40:00');
+
+```
