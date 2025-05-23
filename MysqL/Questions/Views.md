@@ -91,3 +91,78 @@ Views can be used to restrict access to specific data. By granting permissions o
 * **Aggregate Data**: Use views to present summarized order information from `Orders` and `Order_Items`.
 
 ---
+```sql
+# 🧾 SQL Interview Questions: Views
+
+---
+
+## 🔹 Basic View Creation
+
+1. **Create a view named `ActiveUsers` that lists all users with an 'active' status.**
+
+2. **Design a view `UserPosts` that displays each user's name along with the titles of their posts.**
+
+3. **Construct a view `PostComments` showing post titles and the count of comments each has received.**
+
+---
+
+## 🔹 Views with Joins and Aggregations
+
+4. **Develop a view `UserOrderSummary` that presents each user's name, total number of orders, and total amount spent.**
+
+5. **Create a view `ProductSales` that lists each product's name, total units sold, and total revenue generated.**
+
+6. **Design a view `CategoryProductCount` showing each category and the number of products it contains.**
+
+---
+
+## 🔹 Updatable Views and Limitations
+
+7. **Is it possible to update the `ActiveUsers` view directly to change a user's status? Explain why or why not.**
+
+8. **Attempt to insert a new record into the `UserPosts` view. What challenges might arise, and how can they be addressed?**
+
+9. **Modify the `PostComments` view to include only posts with more than 5 comments. Discuss the implications for updatability.**
+
+---
+
+## 🔹 Nested and Complex Views
+
+10. **Create a view `TopCustomers` that lists users who have placed more than 10 orders.**
+
+11. **Design a view `RecentOrders` that shows orders placed in the last 30 days, including user names and order totals.**
+
+12. **Construct a view `HighValueOrders` that lists orders with totals exceeding $1000, along with user and product details.**
+
+---
+
+## 🔹 Security and Access Control
+
+13. **How can views be utilized to restrict access to sensitive user information, such as email addresses?**
+
+14. **Design a view `PublicPosts` that exposes only post titles and publication dates, hiding user information.**
+
+15. **Explain how to grant SELECT permissions on the `PublicPosts` view without granting access to the underlying `Posts` table.**
+
+---
+
+## 🔹 Maintenance and Optimization
+
+16. **What are the steps to update the definition of the `UserOrderSummary` view to include average order value?**
+
+17. **Discuss the benefits and drawbacks of using materialized views for the `ProductSales` view in a high-traffic database.**
+
+18. **How can indexing be applied to views to improve query performance, and what are the limitations?**
+
+---
+
+## 🔹 Advanced Scenarios
+
+19. **Create a view `UserActivity` that combines data from `Users`, `Posts`, and `Comments` to show overall user engagement.**
+
+20. **Design a view `InactiveUsers` that lists users who haven't posted or commented in the last 6 months.**
+
+---
+
+
+```
